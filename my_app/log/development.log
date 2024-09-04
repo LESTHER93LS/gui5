@@ -1,0 +1,203 @@
+Started GET "/" for 127.0.0.1 at 2024-09-04 11:31:52 -0600
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.3ms | Allocations: 383)
+Completed 200 OK in 75ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 7504)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 11:53:12 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.3ms | Allocations: 383)
+Completed 200 OK in 126ms (Views: 62.6ms | ActiveRecord: 0.0ms | Allocations: 4532)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 11:58:00 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 116)
+  Rendered layout layouts/application.html.erb (Duration: 1433.1ms | Allocations: 91150)
+Completed 200 OK in 1511ms (Views: 1504.4ms | ActiveRecord: 0.0ms | Allocations: 92318)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:15:00 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (5.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 237)
+  Rendered layout layouts/application.html.erb (Duration: 1131.6ms | Allocations: 36214)
+Completed 200 OK in 1287ms (Views: 1182.1ms | ActiveRecord: 0.0ms | Allocations: 40558)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:22:10 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 173)
+  Rendered layout layouts/application.html.erb (Duration: 57.7ms | Allocations: 16266)
+Completed 200 OK in 67ms (Views: 64.8ms | ActiveRecord: 0.0ms | Allocations: 17352)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:41:43 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 16216)
+Completed 200 OK in 80ms (Views: 74.9ms | ActiveRecord: 0.0ms | Allocations: 17298)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:41:49 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1309)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 1579)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:41:59 -0600
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 1321)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 1578)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:45:56 -0600
+  
+SyntaxError (/home/lifg/Escritorio/proyecto_RoR/my_app/config/routes.rb:3: syntax error, unexpected end-of-input, expecting `end'
+ root 'hash#mostrar'
+                    ^
+):
+  
+config/routes.rb:3: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:47:15 -0600
+  
+SyntaxError (/home/lifg/Escritorio/proyecto_RoR/my_app/config/routes.rb:4: syntax error, unexpected end-of-input, expecting `end'):
+  
+config/routes.rb:4: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:52:38 -0600
+  
+SyntaxError (/home/lifg/Escritorio/proyecto_RoR/my_app/config/routes.rb:5: syntax error, unexpected end-of-input, expecting '{'):
+  
+config/routes.rb:5: syntax error, unexpected end-of-input, expecting '{'
+Started GET "/" for 127.0.0.1 at 2024-09-04 12:53:18 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 12.7ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 100.2ms | Allocations: 16433)
+Completed 200 OK in 126ms (Views: 113.0ms | ActiveRecord: 0.0ms | Allocations: 17526)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:00:21 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 1.4ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 47.7ms | Allocations: 16353)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 0.0ms | Allocations: 17437)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2024-09-04 13:01:50 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:07:52 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 9.6ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 56.8ms | Allocations: 1446)
+Completed 200 OK in 66ms (Views: 63.2ms | ActiveRecord: 0.0ms | Allocations: 1746)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:07:56 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 0.3ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 1318)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 1576)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:09:10 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 0.2ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 1324)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 1582)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:09:47 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 0.3ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 1312)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 1570)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:11:55 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 1.4ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 73.2ms | Allocations: 16451)
+Completed 200 OK in 85ms (Views: 80.7ms | ActiveRecord: 0.0ms | Allocations: 17535)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:14:08 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 0.2ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 312.2ms | Allocations: 3592)
+Completed 200 OK in 322ms (Views: 315.1ms | ActiveRecord: 0.0ms | Allocations: 3868)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:15:32 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 2.5ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 2537)
+Completed 200 OK in 74ms (Views: 60.4ms | ActiveRecord: 0.0ms | Allocations: 2795)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:16:38 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 0.5ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 70.5ms | Allocations: 2539)
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.0ms | Allocations: 2797)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:17:33 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 2563)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2024-09-04 13:19:50 -0600
+Processing by HashController#mostrar as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hash/mostrar.html.erb within layouts/application
+  Rendered hash/mostrar.html.erb within layouts/application (Duration: 4.6ms | Allocations: 303)
+  Rendered layout layouts/application.html.erb (Duration: 64.0ms | Allocations: 16475)
+Completed 200 OK in 75ms (Views: 70.8ms | ActiveRecord: 0.0ms | Allocations: 17566)
+
+

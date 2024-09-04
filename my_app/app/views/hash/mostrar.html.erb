@@ -1,0 +1,37 @@
+<h1>Hash#mostrar</h1>
+<h3>imrrimiendo los dias de la semana</h3>
+<% @dias_semana.each do |dia| %>
+    <%= dia %><br>
+<% end %>
+<h3>primer dia de la semana</h3>
+<%= @dias_semana.first %><br>
+
+<h3>ultimo dia de la semana</h3>
+<%= @dias_semana.last %><br>
+
+<h3>datos de la persona</h3>
+<table border="1" cellpadding="10" cellspacing="0">
+<tr>
+    <td>campo </td>
+    <td>valor </td>
+</tr>
+<tr>
+    <td>nombre </td>
+    <td><%= @persona [:nombre]%></td> 
+</tr>
+<tr>
+    <td>apellido </td>
+    <td><%= @persona [:apellido]%></td> 
+</tr>
+<tr>
+    <td>telefono</td>
+    <td><%= @persona [:telefono]%></td> 
+</tr>
+<tr>
+    <td>correo </td>
+    <td><%= @persona [:correo]%></td> 
+</tr>
+
+</table>
+
+<p>Find me in app/views/hash/mostrar.html.erb</p>
